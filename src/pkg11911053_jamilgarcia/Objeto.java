@@ -7,16 +7,18 @@ public class Objeto {
     private String marca_o; 
     private int tamanio_o; 
     private Persona persona_o; 
+    private String calidad;
 
     public Objeto() {
     }
 
-    public Objeto(String color_o, String descrip_o, String marca_o, int tamanio_o, Persona persona_o) {
+    public Objeto(String color_o, String descrip_o, String marca_o, int tamanio_o, Persona persona_o, String calidad) {
         this.color_o = color_o;
         this.descrip_o = descrip_o;
         this.marca_o = marca_o;
         this.tamanio_o = tamanio_o;
         this.persona_o = persona_o;
+        this.calidad = calidad;
     }
 
     public String getColor_o() {
@@ -59,10 +61,20 @@ public class Objeto {
         this.persona_o = persona_o;
     }
 
+    public String getCalidad() {
+        return calidad;
+    }
+
+    public void setCalidad(String calidad) {
+        this.calidad = calidad;
+    }
+
     @Override
     public String toString() {
-        return "Objeto{" + "color_o=" + color_o + ", descrip_o=" + descrip_o + ", marca_o=" + marca_o + ", tamanio_o=" + tamanio_o + ", persona_o=" + persona_o + '}';
+        return "Objeto{" + "color_o=" + color_o + ", descrip_o=" + descrip_o + ", marca_o=" + marca_o + ", tamanio_o=" + tamanio_o + ", persona_o=" + persona_o + ", calidad=" + calidad + '}';
     }
+
+    
     
     
     

@@ -9,12 +9,14 @@ public class Ropa extends Objeto{
     public Ropa() {
     }
 
-    public Ropa(String talla_r, String tela_r, String pais_r, String color_o, String descrip_o, String marca_o, int tamanio_o, Persona persona_o) {
-        super(color_o, descrip_o, marca_o, tamanio_o, persona_o);
+    public Ropa(String talla_r, String tela_r, String pais_r, String color_o, String descrip_o, String marca_o, int tamanio_o, Persona persona_o, String calidad) {
+        super(color_o, descrip_o, marca_o, tamanio_o, persona_o, calidad);
         this.talla_r = talla_r;
         this.tela_r = tela_r;
         this.pais_r = pais_r;
     }
+
+   
 
     public String getTalla_r() {
         return talla_r;

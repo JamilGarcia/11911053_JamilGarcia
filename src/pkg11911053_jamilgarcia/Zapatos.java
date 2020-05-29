@@ -9,12 +9,14 @@ public class Zapatos extends Objeto{
     public Zapatos() {
     }
 
-    public Zapatos(int talla_z, String descripS_z, int comodidad_z, String color_o, String descrip_o, String marca_o, int tamanio_o, Persona persona_o) {
-        super(color_o, descrip_o, marca_o, tamanio_o, persona_o);
+    public Zapatos(int talla_z, String descripS_z, int comodidad_z, String color_o, String descrip_o, String marca_o, int tamanio_o, Persona persona_o, String calidad) {
+        super(color_o, descrip_o, marca_o, tamanio_o, persona_o, calidad);
         this.talla_z = talla_z;
         this.descripS_z = descripS_z;
         this.comodidad_z = comodidad_z;
     }
+
+    
 
     public int getTalla_z() {
         return talla_z;

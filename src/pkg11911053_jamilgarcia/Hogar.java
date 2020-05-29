@@ -9,13 +9,14 @@ public class Hogar extends Objeto{
     public Hogar() {
     }
 
-    public Hogar(String parte_h, String instruc_h, int tiempoG_h, String color_o, String descrip_o, String marca_o, int tamanio_o, Persona persona_o) {
-        super(color_o, descrip_o, marca_o, tamanio_o, persona_o);
+    public Hogar(String parte_h, String instruc_h, int tiempoG_h, String color_o, String descrip_o, String marca_o, int tamanio_o, Persona persona_o, String calidad) {
+        super(color_o, descrip_o, marca_o, tamanio_o, persona_o, calidad);
         this.parte_h = parte_h;
         this.instruc_h = instruc_h;
         this.tiempoG_h = tiempoG_h;
     }
 
+    
     public String getParte_h() {
         return parte_h;
     }
