@@ -43,7 +43,7 @@ public class Hogar extends Objeto{
 
     @Override
     public String toString() {
-        return super.toString()+"Hogar{" + "parte_h=" + parte_h + ", instruc_h=" + instruc_h + ", tiempoG_h=" + tiempoG_h + '}';
+        return super.toString();
     }
     
     

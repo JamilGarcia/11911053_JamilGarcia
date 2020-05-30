@@ -53,17 +53,17 @@ public class PersonalGeneral extends Persona{
         this.sueldo_pg = sueldo_pg;
     }
 
-    public ArrayList<String> getMensajes_p() {
+    public ArrayList<Mensaje> getMensajes_p() {
         return mensajes_p;
     }
 
-    public void setMensajes_p(ArrayList<String> mensajes_p) {
+    public void setMensajes_p(ArrayList<Mensaje> mensajes_p) {
         this.mensajes_p = mensajes_p;
     }
 
     @Override
     public String toString() {
-        return "PersonalGeneral{" + "ocupacion_pg=" + ocupacion_pg + ", horario_pg=" + horario_pg + ", tiemtrab_pg=" + tiemtrab_pg + ", sueldo_pg=" + sueldo_pg + '}';
+        return super.toString();
     }
     
     

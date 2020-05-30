@@ -43,17 +43,17 @@ public class Gerente extends Persona{
         this.cargo_p = cargo_p;
     }
 
-    public ArrayList<String> getMensajes_p() {
+    public ArrayList<Mensaje> getMensajes_p() {
         return mensajes_p;
     }
 
-    public void setMensajes_p(ArrayList<String> mensajes_p) {
+    public void setMensajes_p(ArrayList<Mensaje> mensajes_p) {
         this.mensajes_p = mensajes_p;
     }
 
     @Override
     public String toString() {
-        return super.toString() + "Gerente{" + "usuario_g=" + usuario_g + ", pass_p=" + pass_p + ", cargo_p=" + cargo_p + '}';
+        return super.toString();
     }
     
     

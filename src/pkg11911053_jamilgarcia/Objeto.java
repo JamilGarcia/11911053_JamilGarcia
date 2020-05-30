@@ -71,7 +71,7 @@ public class Objeto {
 
     @Override
     public String toString() {
-        return "Objeto{" + "color_o=" + color_o + ", descrip_o=" + descrip_o + ", marca_o=" + marca_o + ", tamanio_o=" + tamanio_o + ", persona_o=" + persona_o + ", calidad=" + calidad + '}';
+        return descrip_o + "/" + marca_o;
     }
 
     

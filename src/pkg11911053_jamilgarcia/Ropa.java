@@ -44,7 +44,7 @@ public class Ropa extends Objeto{
 
     @Override
     public String toString() {
-        return super.toString() + "Ropa{" + "talla_r=" + talla_r + ", tela_r=" + tela_r + ", pais_r=" + pais_r + '}';
+        return super.toString();
     }
     
     
